@@ -1,0 +1,13 @@
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.nasaContainer h2 {
+    color: white;
+}
+
+.nasaContainer p {
+    color: white;
+    padding: 0px 50px;
+}
