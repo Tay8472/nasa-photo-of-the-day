@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import Header from "./Components/Header/Header.js";
+import NasaContainer from "./Components/NasaContainer/NasaContainer.js";
+import Footer from "./Components/Footer/Footer.js";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+      <Header />
+      <NasaContainer />
+      <Footer />
     </div>
   );
 }
